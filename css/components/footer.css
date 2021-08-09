@@ -1,0 +1,36 @@
+
+.footer-banner {
+  background-color: black;
+  text-align: center;
+}
+
+.socials {
+  margin: 0 auto;
+  text-align: center;
+  padding-inline-start: 0px;
+}
+
+.socials li {
+  list-style: none;
+}
+
+.social {
+  text-align: center;
+  font-size: 50px;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+}
+
+.social:hover {
+  color: red;
+  transition: 1s;
+}
+
+.footer-banner h4 {
+  display: inline-block;
+  justify-content: center;
+  margin: 0px;
+  padding-bottom: 10px;
+  color: white;
+}

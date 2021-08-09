@@ -1,0 +1,24 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-top: 20px; */
+}
+
+.card {
+  width: 250px;
+  padding: 20px;
+  margin: 50px 20px;
+  text-align: center;
+  border: 1px solid lightgrey;
+  box-shadow: 0 0 5px rgb(230 230 230);
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+}
+
+.card p {
+  color: darkgray
+}

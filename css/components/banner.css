@@ -1,0 +1,44 @@
+
+:root {
+  --grey: hsla(0, 0%, 80%, 1);
+  --greyer: hsla(0, 0%, 55%, 1);
+  --green: hsla(130, 70%, 65%, 1);
+  --lessgreen: hsla(130, 70%, 70%);
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+ }
+
+.banner .container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner h1 {
+  font-family: open-sans, sans-serif;
+  color: white;
+}
+
+.banner p {
+    color: white;
+    opacity: .7;
+    font-size: 20px;
+}
+
+.btn-treehouse {
+  font-family: open-sans, sans-serif;
+  background-color: var(--lessgreen);
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+
+.btn-treehouse:hover {
+  background-color: var(--green);
+}
